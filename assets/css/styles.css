@@ -1,0 +1,260 @@
+
+:root {
+    font-size: 16px;
+}
+html body {
+    font-size: 16px;
+    height: 100%;
+    font-family: sans-serif;
+
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.name-line-wrap .bold-name-description{
+    font-size: .9rem;
+     font-family: Arial;
+    margin-top: 26px;
+}
+.name-line-wrap .bold-name-center{
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 1.26;
+    font-family: Arial;
+}
+.top-section .name-line-wrap{
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+.name-line-wrap .bold-name-line{
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    border-color: rgba(133, 140, 184, 1);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 15px 0 0 0;
+}
+.navigate-bar .nav-link{
+    padding: 16px 12px;
+}
+.navigate-bar .person-name{
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+
+}
+
+.top-section .bold-name-slogan{
+    font-size: .7rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    text-align: left;
+
+
+}
+.main-content-wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 68px;
+    box-sizing: border-box;
+}
+
+
+.self-intro-section {
+    font-family: 'Open Sans', Arial;
+    color: black;
+}
+
+.self-intro-section .self-intro-wrap {
+    display: flex;
+}
+.self-intro-wrap .left {
+    width: 25%;
+}
+.self-intro-wrap .left .self-img {
+    width: 100%;
+}
+
+.self-intro-section .self-intro-name {
+    font-weight: 700;
+}
+
+
+
+/********/
+
+
+
+.nav-bar-wrap {
+    /*position: relative;*/
+}
+
+.nav-bar-wrap.at-scroll-position57 .navigate-bar .person-name{
+    color: rgb(133, 140, 184) !important;
+}
+.nav-bar-wrap.at-scroll-position57 .navigate-bar{
+    background-color: white;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    transition: opacity .5s,padding-left .125s;
+}
+.nav-bar-wrap .navigate-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 56px;
+    width: 100%;
+    z-index: 100;
+}
+.navigate-bar .bar-content{
+    padding: 0 1rem;
+}
+
+
+
+
+
+.page-wrapper {
+    position: relative;
+}
+
+.top-bg-wrap {
+    /*position: relative;*/
+}
+.top-bg-wrap .top-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    /*padding-bottom: 50px;
+    padding-top: 50px;*/
+
+    z-index: 80;
+    box-sizing: border-box;
+    background-position: center center;
+    background-image: url(/assets/images/bg.jpg);
+    background-size: cover;
+}
+
+
+.scroll-wrap {
+    position: absolute;
+    z-index: 200;
+    top: 0px;
+    width: 100%;
+}
+
+
+.top-section {
+    height: 310px;
+    color: #ffffff;
+}
+
+
+.self-intro-section {
+    margin-top: 30px;
+}
+
+.self-intro-section .flex-item.right {
+    margin-left: 30px;
+}
+
+.self-intro-section .self-intro-name{
+    font-weight: 700;
+    color: #212121;
+    padding: 10px 0 15px 0;
+}
+
+.self-intro-section .intro-line{
+    padding: 10px 0 15px 0;
+}
+
+
+
+.contact-wrapper  {
+    text-align: center;
+    margin-top: 40px;
+}
+.contact-wrapper .contact-research {
+    color: #6f7498;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.contact-wrapper .contact-research-desc {
+    color: rgba(33, 33, 33, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.contact-wrapper .round-box {
+    box-sizing: content-box;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+    font-size: 10pt;
+}
+
+
+
+
+/*******/
+
+@media only screen and (max-width: 479px) {
+
+    .name-line-wrap .bold-name-center{
+        font-size: 2.5rem;
+        padding-top: 5px;
+    }
+
+    .navigate-bar .person-name {
+        font-size: 1.16rem;
+    }
+
+
+
+
+    .self-intro-section .self-intro-wrap {
+        flex-flow: column;
+    }
+    .self-intro-wrap .left {
+        width: 100%;
+    }
+    .self-intro-section .flex-item.right {
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
