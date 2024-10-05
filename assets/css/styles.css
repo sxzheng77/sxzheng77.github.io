@@ -57,7 +57,7 @@ body {
 
 .top-section .bold-name-slogan{
     font-size: .7rem;
-    /*font-family: 'Open Sans', sans-serif;*/
+    font-weight: bold;
     margin-top: 25px;
     text-align: left;
 
