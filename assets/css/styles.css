@@ -5,7 +5,8 @@
 html body {
     font-size: 16px;
     height: 100%;
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
+    font-family: Arial,Helvetica,sans-serif;
 
 }
 body {
@@ -16,9 +17,9 @@ body {
 
 
 .name-line-wrap .bold-name-description{
-    font-size: .9rem;
-     font-family: Arial;
-    margin-top: 26px;
+    font-size: .875rem;
+     /*font-family: Arial;*/
+    margin-top: 5px;
 }
 .name-line-wrap .bold-name-center{
     font-size: 3.75rem;
@@ -26,7 +27,7 @@ body {
     font-weight: 400;
     letter-spacing: -0.5px;
     line-height: 1.26;
-    font-family: Arial;
+    /*font-family: Arial;*/
 }
 .top-section .name-line-wrap{
     text-align: center;
@@ -50,14 +51,14 @@ body {
     font-weight: 500;
     letter-spacing: 1.5px;
     text-decoration: none;
-    font-family: Roboto, sans-serif;
+    /*font-family: Roboto, sans-serif;*/
 
 }
 
 .top-section .bold-name-slogan{
     font-size: .7rem;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 50px;
+    /*font-family: 'Open Sans', sans-serif;*/
+    margin-top: 25px;
     text-align: left;
 
 
@@ -68,11 +69,12 @@ body {
     margin: 0 auto;
     padding: 0 68px;
     box-sizing: border-box;
+    font-size: .875rem;
 }
 
 
 .self-intro-section {
-    font-family: 'Open Sans', Arial;
+    /*font-family: 'Open Sans', Arial;*/
     color: black;
 }
 
@@ -88,6 +90,7 @@ body {
 
 .self-intro-section .self-intro-name {
     font-weight: 700;
+    font-size: 1rem;
 }
 
 
@@ -107,7 +110,7 @@ body {
     background-color: white;
     border-top: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc;
-    font-family: Roboto, sans-serif;
+    /*font-family: Roboto, sans-serif;*/
     font-weight: 500;
     transition: opacity .5s,padding-left .125s;
 }
@@ -169,6 +172,16 @@ body {
     margin-top: 30px;
 }
 
+.self-intro-section .self-intro-ul{
+    list-style-type: square;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+.self-intro-section .self-li-item{
+    margin-left: 15.0pt;
+}
+
 .self-intro-section .flex-item.right {
     margin-left: 30px;
 }
@@ -196,7 +209,7 @@ body {
 }
 .contact-wrapper .contact-research-desc {
     color: rgba(33, 33, 33, 1);
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
     font-weight: 400;
     padding: 15px 0;
 }
@@ -237,6 +250,14 @@ body {
     }
     .self-intro-section .flex-item.right {
         margin-left: 0px;
+    }
+
+    .main-content-wrapper {
+        padding: 0 36px;
+    }
+
+    .top-section .bold-name-slogan {
+        margin-top: 10px;
     }
 }
 
