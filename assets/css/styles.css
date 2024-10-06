@@ -36,7 +36,8 @@ body {
 .name-line-wrap .bold-name-line{
     border-bottom-style: solid;
     border-bottom-width: 8px;
-    border-color: rgba(133, 140, 184, 1);
+    /*border-color: rgba(133, 140, 184, 1);*/
+    border-color: rgba(83, 42, 22, 1);
     margin-left: auto;
     margin-right: auto;
     width: 100px;
