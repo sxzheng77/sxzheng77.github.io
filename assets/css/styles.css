@@ -259,6 +259,7 @@ body {
 
     .top-section .bold-name-slogan {
         margin-top: 10px;
+        display: none;
     }
 }
 
