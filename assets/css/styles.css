@@ -155,6 +155,10 @@ body {
 }
 
 
+.scroll-wrap a {
+    color: rgba(83, 42, 22, 1);
+    text-decoration: none;
+}
 .scroll-wrap {
     position: absolute;
     z-index: 200;
