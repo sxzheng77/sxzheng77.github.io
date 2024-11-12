@@ -185,6 +185,8 @@ body {
 
 .self-intro-section .flex-item.right {
     margin-left: 30px;
+    flex-grow: 1;
+    padding-right: 3%;
 }
 
 .self-intro-section .self-intro-name{
@@ -266,10 +268,26 @@ body {
 
 
 
+.edu-time {
+    float: right;
+}
 
 
+.avatar-under-wrap .bio-name {
+    font-size: 1.8rem;
+}
+.avatar-under-wrap .bio-role {
+    color: grey;
+    padding: 1rem 0;
+}
+.avatar-under-wrap .bio-university {
+    padding-bottom: 1rem;
+}
+.avatar-under-wrap .bio-university a {
+    color: rgba(83, 42, 22, 1);
+    text-decoration: none;
 
-
+}
 
 
 
